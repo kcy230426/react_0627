@@ -1,0 +1,147 @@
+*{
+    font-family: 'Roboto Slab','Orbit';
+    font-weight: 100;
+    letter-spacing: -0.75px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+.me-0{
+    margin-right: 0;
+}
+
+.col-3{
+    width: 30%;
+}
+
+input::placeholder{
+    font-size: 11pt;
+    color: rgb(141, 141, 141);
+}
+
+#tab{
+    height: 60px;
+    
+    background-color: rgb(46, 46, 46);
+    .Test img{
+    height: 80px;
+    }
+
+    img{
+    height: 35px;
+    padding-left: 15px;
+    }
+
+    #gnb, #sns {
+    margin-bottom: 0;
+    li{padding: 5px 20px; 
+        a{color: white;}}
+    }
+}
+
+#review{
+        .row{
+            height: 800px;
+            div{
+                margin: 10px;
+             }
+        }
+        .cbox1{
+            background-color: rgb(158, 184, 240);
+        }
+        .cbox2{
+            background-color: rgb(212, 180, 255);
+        }
+        .cbox3{
+            background-color: rgb(255, 244, 215);
+        }
+        .cbox4{
+            background-color: rgb(215, 252, 255);
+        }
+        .cbox5{
+            background-color: rgb(240, 158, 158);
+        }
+        .cbox6{
+            background-color: rgb(231, 231, 231);
+        }
+}
+
+#slide{
+    margin-top: 60px;
+    padding: 0;
+    .sbox{
+        height: 400px;
+        overflow: hidden;
+        .SwiperSlide{
+            height: 300px;
+        }
+        img{
+            width: 100%;
+            // background-size:auto;
+            background-position: center;
+        }
+    }
+}
+
+#form-box{
+    .l-title{
+        font-size: 14pt;
+    }
+    .name input, .phone input{
+        width: 150px;
+        padding: 5px;
+        outline: none;
+        border: 1px rgb(141, 141, 141) solid;
+        border-radius: 5px;
+    }
+    .work{
+        input{
+            margin-right: 3px;
+        }
+        label{
+            margin-right: 8px;
+        }
+    }
+    #wrap{
+        height: 140px;
+        background-color:#b1caf8;
+        border-radius: 20px;
+        .txt{
+            font-size: 22pt;
+            padding-left: 20px;
+            font-weight: 400;
+            color: rgb(230, 241, 255);
+            
+        }
+    }
+}
+
+.s-btn{
+    input{
+        border: none;
+        border-radius: 12px;
+        height: 55px;
+        width: 140px;
+        font-size: 13pt;
+        background-color: rgb(103, 135, 224);
+        color: white;
+        margin-right:20px
+    }
+    
+    
+}
+
+#ft{
+    background-color: #e0e0e0;
+    color: #222;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+}

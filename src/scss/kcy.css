@@ -1,0 +1,136 @@
+* {
+  font-family: "Roboto Slab", "Orbit";
+  font-weight: 100;
+  letter-spacing: -0.75px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+.me-0 {
+  margin-right: 0;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+input::placeholder {
+  font-size: 11pt;
+  color: rgb(141, 141, 141);
+}
+
+#tab {
+  height: 60px;
+  background-color: rgb(46, 46, 46);
+}
+#tab .Test img {
+  height: 80px;
+}
+#tab img {
+  height: 35px;
+  padding-left: 15px;
+}
+#tab #gnb, #tab #sns {
+  margin-bottom: 0;
+}
+#tab #gnb li, #tab #sns li {
+  padding: 5px 20px;
+}
+#tab #gnb li a, #tab #sns li a {
+  color: white;
+}
+
+#review .row {
+  height: 800px;
+}
+#review .row div {
+  margin: 10px;
+}
+#review .cbox1 {
+  background-color: rgb(158, 184, 240);
+}
+#review .cbox2 {
+  background-color: rgb(212, 180, 255);
+}
+#review .cbox3 {
+  background-color: rgb(255, 244, 215);
+}
+#review .cbox4 {
+  background-color: rgb(215, 252, 255);
+}
+#review .cbox5 {
+  background-color: rgb(240, 158, 158);
+}
+#review .cbox6 {
+  background-color: rgb(231, 231, 231);
+}
+
+#slide {
+  margin-top: 60px;
+  padding: 0;
+}
+#slide .sbox {
+  height: 400px;
+  overflow: hidden;
+}
+#slide .sbox .SwiperSlide {
+  height: 300px;
+}
+#slide .sbox img {
+  width: 100%;
+  background-position: center;
+}
+
+#form-box .l-title {
+  font-size: 14pt;
+}
+#form-box .name input, #form-box .phone input {
+  width: 150px;
+  padding: 5px;
+  outline: none;
+  border: 1px rgb(141, 141, 141) solid;
+  border-radius: 5px;
+}
+#form-box .work input {
+  margin-right: 3px;
+}
+#form-box .work label {
+  margin-right: 8px;
+}
+#form-box #wrap {
+  height: 140px;
+  background-color: #b1caf8;
+  border-radius: 20px;
+}
+#form-box #wrap .txt {
+  font-size: 22pt;
+  padding-left: 20px;
+  font-weight: 400;
+  color: rgb(230, 241, 255);
+}
+
+.s-btn input {
+  border: none;
+  border-radius: 12px;
+  height: 55px;
+  width: 140px;
+  font-size: 13pt;
+  background-color: rgb(103, 135, 224);
+  color: white;
+  margin-right: 20px;
+}
+
+#ft {
+  background-color: #e0e0e0;
+  color: #222;
+  text-align: center;
+  height: 120px;
+  line-height: 120px;
+}/*# sourceMappingURL=kcy.css.map */
