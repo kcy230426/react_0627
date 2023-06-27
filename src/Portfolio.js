@@ -82,7 +82,7 @@ const Portfoilo = () => {
                             <input type="phone" placeholder='연락처를 입력해주세요' />
                         </div>
                         <div className='s-btn'>
-                            <input type="submit" value="면접 신청"/>
+                            <input type="submit" value="면접 제의"/>
                             <label htmlFor="btn"></label>
                         </div>
                         
