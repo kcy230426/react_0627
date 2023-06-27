@@ -34,10 +34,11 @@ const Portfoilo = () => {
             <div id="slide" className='container'>
                     <Swiper className='sbox'
                     spaceBetween={0}
-                    navigation
+                    navigation={true}
                     pagination={{ clickable: true }}
                     autoplay={{ delay: 3500, disableOnInteraction: false }}
-                    >
+                    loop={true}>
+                    
                     <SwiperSlide><img src={bg1}></img></SwiperSlide>
                     <SwiperSlide><img src={bg2}></img></SwiperSlide>
                     <SwiperSlide><img src={bg3}></img></SwiperSlide>
